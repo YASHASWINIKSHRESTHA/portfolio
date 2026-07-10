@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# claude code local state
+.claude/settings.local.json
+.claude/scheduled_tasks.lock
+
+# raw source photo (already copied into public/avatar.jpg)
+/YASHASWINI PHOTO.jpg
